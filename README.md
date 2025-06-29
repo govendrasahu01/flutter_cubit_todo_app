@@ -1,6 +1,38 @@
-# todo_app
+# 📝 ToDo App – Flutter + Cubit + Sqflite
 
-A new Flutter project.
+A clean and simple ToDo application built using **Flutter**, powered by **Cubit** for state management and **Sqflite** for local persistent storage.  
+This project was developed for practice and learning purposes, focusing on clean architecture and modular code.
+
+- [Try this app in Android](https://drive.google.com/file/d/1mH5GN7wAUR8rnpVdLtqdWI7C-hAJjyKu/view?usp=sharing)
+
+---
+
+
+## 🚀 Features
+
+- ✅ Add, edit, and delete ToDos
+- 📌 Mark tasks as **Completed** or **Pending**
+- 🔍 Filter ToDos by:
+    - **Status**: Completed / Pending
+    - **Priority**: Low / Medium / High
+- ↕️ Sort ToDos by:
+    - **Ascending** or **Descending** order
+- 🧱 Structured using separate classes for:
+    - State management
+    - Cubit logic
+- 💾 Offline support using **Sqflite** (local database)
+
+---
+
+## 🧑‍💻 Technologies Used
+
+- **Flutter** – UI framework
+- **Cubit (Bloc package)** – Lightweight state management
+- **Sqflite** – SQLite plugin for Flutter
+- **Path Provider** – For locating the database path
+
+---
+
 
 ## Getting Started
 
